@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_create_group" android:title="New Group" android:icon="@drawable/ic_drawer_create_group"></item>
+    <item android:id="@+id/menu_search" android:title="Find Friends" android:icon="@drawable/ic_drawer_search_icon"></item>
+    <item android:id="@+id/menu_Account" android:title="Account" android:icon="@drawable/ic_drawer_account"></item>
+    <item android:id="@+id/menu_logout" android:title="Log Out" android:icon="@drawable/ic_drawer_logout"></item>
+</menu>

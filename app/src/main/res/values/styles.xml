@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. parent=""-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/aa</item>
+        <item name="colorPrimaryDark">@color/cc</item>
+        <item name="colorAccent">@color/aa</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="ChatsToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorNavy</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorGrey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorHighlight">@color/colorNavy</item>
+        <item name="android:textColorLink">@color/colorBlue</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorNavy</item>
+        <item name="colorControlNormal">@color/colorNavy</item>
+        <item name="colorControlActivated">@color/colorBlue</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorNavy</item>
+        <item name="android:textColorPrimary">@color/colorNavy</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+</resources>

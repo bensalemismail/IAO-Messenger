@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/find_friends_rel_main"
+    >
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_margin="15dp"
+        android:id="@+id/find_friends_profil_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_user_display_profile_image"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/find_friends_username_rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/find_friends_profil_image"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/find_friends_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Benchagra Badr"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorNavy"
+            android:layout_marginEnd="50dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/find_friends_online_status"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:src="@drawable/ic_online"
+            android:layout_toEndOf="@+id/find_friends_username"
+            android:contentDescription="online lastName"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/find_friends_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi there, I'm using IAO Messenger."
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_toEndOf="@+id/find_friends_profil_image"
+        android:layout_below="@+id/find_friends_username_rel"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/lato"
+        />
+
+    <TextView
+        android:id="@+id/find_friend_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/find_friends_username_rel"
+        android:text="YOU"
+        android:layout_above="@id/find_friends_status"
+        android:textStyle="bold"
+        android:textColor="@color/endblue"
+        android:textSize="20sp"
+        android:fontFamily="@font/tahu"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

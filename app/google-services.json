@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "326401909357",
+    "firebase_url": "https://iaomessenger.firebaseio.com",
+    "project_id": "iaomessenger",
+    "storage_bucket": "iaomessenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326401909357:android:2e7e2948ec42a995",
+        "android_client_info": {
+          "package_name": "world.iaomessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326401909357-92gohceocim6qutl7bm9ided79sllphs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "world.iaomessenger",
+            "certificate_hash": "f6d5fa3f55a6daed22f1015eb80dc63c272714cc"
+          }
+        },
+        {
+          "client_id": "326401909357-lmn4q6qo78gieb5se9fl95u154unqj4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "world.iaomessenger",
+            "certificate_hash": "5444ae6c88e209c401bfd3a45c0d0db8e324bcc8"
+          }
+        },
+        {
+          "client_id": "326401909357-unq5imh9ghc738li4noksca9vpi9b551.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB1E98K9-K0WuL9S4f0wj2RzH4Uu12XCo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326401909357-unq5imh9ghc738li4noksca9vpi9b551.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326401909357:android:4789c2f51b20cf84",
+        "android_client_info": {
+          "package_name": "world.iaomessengerapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326401909357-bkp469t7dar28d03ephgoh2b35gvm03o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "world.iaomessengerapplication",
+            "certificate_hash": "6b256fed7e9e2d356038a2534f2286fa7771fadc"
+          }
+        },
+        {
+          "client_id": "326401909357-unq5imh9ghc738li4noksca9vpi9b551.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB1E98K9-K0WuL9S4f0wj2RzH4Uu12XCo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326401909357-unq5imh9ghc738li4noksca9vpi9b551.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

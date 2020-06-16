@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#001321</color>
+    <color name="colorAccent">#001f3f</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#c3c3c3</color>
+    <color name="colorBlack">#111111</color>
+    <color name="colorDarkGrey">#696969</color>
+    <color name="colorNavy">#001f3f</color>
+    <color name="colorBlue">#0074D9</color>
+    <color name="col1">#3e5151</color>
+    <color name="col2">#decba4</color>
+    <color name="aa">#ccffffff</color>
+    <color name="bb">#1affffff</color>
+    <color name="cc">#A1FFFFFF</color>
+    <color name="col3">#ece9e6</color>
+    <color name="col4">#ffffff</color>
+    <color name="startblue">#43C6AC</color>
+    <color name="colorBlueStar">#1943C6AC</color>
+    <color name="colorBlueStarDark">#8043C6AC</color>
+    <color name="endblue">#191654</color>
+    <color name="col5">#2F80ED</color>
+    <color name="colorLightLightGrey">#E3E3E3EE</color>
+    <color name="colorfocused">#5A99EB</color>
+    <color name="colorpressed">#9EABB9</color>
+    <color name="colordisabled">#979797</color>
+    <color name="colorRed">#FF4136</color>
+    <color name="colorGreen">#2ECC40</color>
+    <color name="grisbard">#E8EAED</color>
+    <color name="colorDark">#B8B8B8</color>
+    <color name="myred">#DD4B39</color>
+    <color name="mygrey">#CFD9E0</color>
+    <color name="col">#0069F3</color>
+    <color name="silver">#fafafa</color>
+    <color name="bluecolor">#0491FD</color>
+
+
+
+    <!-- color bulles-->
+
+    <color name="bulleblue">#0384FF</color>
+    <color name="bullegrise">#F1F0F0</color>
+</resources>

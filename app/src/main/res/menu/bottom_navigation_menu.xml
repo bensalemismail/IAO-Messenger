@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Chats"
+        />
+
+    <item
+        android:id="@+id/ic_groups"
+        android:icon="@drawable/ic_group_icon"
+        android:title="Groups"
+        />
+
+    <item
+        android:id="@+id/ic_contacts"
+        android:icon="@drawable/ic_contact_icon"
+        android:title="Contacts"
+        />
+
+    <item
+        android:id="@+id/ic_requests"
+        android:icon="@drawable/ic_friends_request"
+        android:title="Requests"
+        />
+</menu>

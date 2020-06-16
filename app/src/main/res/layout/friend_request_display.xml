@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/friend_request_rel_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/friend_profile_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/main_app_bar"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_user_display_profile_image" />
+
+        <TextView
+            android:id="@+id/friend_request_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/friend_request"
+            android:layout_toEndOf="@id/friend_profile_avatar"
+            android:layout_alignTop="@id/friend_profile_avatar"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/lato"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            />
+
+        <Button
+            android:id="@+id/requests_accept_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/friend_request_msg"
+            android:layout_alignStart="@id/friend_request_msg"
+            android:background="@drawable/accept_button_border"
+            android:text="ACCEPT"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:id="@+id/requests_decline_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/friend_request_msg"
+            android:layout_toEndOf="@+id/requests_accept_button"
+            android:background="@drawable/ignore_button_border"
+            android:layout_marginTop="8dp"
+            android:text="DECLINE"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:layout_marginEnd="10dp"
+            android:visibility="invisible"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

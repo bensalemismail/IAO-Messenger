@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">IAOMessenger</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="app_logo_description">IAOMessenger App Logo</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hy">Hy there! I\'m using IAOMessenger.</string>
+    <string name="updatepic">Update picture</string>
+    <string name="updatesat">Update  lastName</string>
+    <string name="trouble">Trouble Logging In?</string>
+    <string name="solution">Enter your email and we\'ll send you a link to reset your password.</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="cancel_request">CANCEL REQUEST</string>
+    <string name="add_friend">ADD FRIEND</string>
+    <string name="accept_request">ACCEPT REQUEST</string>
+    <string name="decline_request">DECLINE REQUEST</string>
+    <string name="send_message">SEND MESSAGE</string>
+    <string name="unfriend">UNFRIEND</string>
+    <string name="poke">POKE</string>
+    <string name="error_weak_password">Weak Password</string>
+    <string name="error_invalid_email">Invalid E-mail Address</string>
+    <string name="error_user_exists">User</string>
+    <string name="tips_badge_removed">badge removed</string>
+    <string name="FACEBOOK_APP_ID">307538239938183</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">faa66e28ca678676020447b82f4a7df1</string>
+
+
+    <!-- Needed -->
+    <string name="create_group_text">Create a new group</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_group_chat"></string>
+    <string name="title_activity_find_friends">Find Friends</string>
+    <string name="setemail">Set your Email...</string>
+    <string name="setphone"> Set your Phone...</string>
+    <string name="setstatus">Set your Status...</string>
+    <string name="setusername">Set your Username...</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="friend_request"> has requested you as a friend.</string>
+    <string name="wlcm">Welcome To IAOMessenger.</string>
+    <string name="go">Get Started</string>
+    <string name="verifyPhone">Login with your phone</string>
+    <string name="verifyPhoneSms">IAOMessenger will send an SMS message to verify your phone number.</string>
+    <string name="waiting">Waiting to automaticaly detect an SMS sent to</string>
+    <string name="wrngnmbr">Wrong number ?</string>
+    <string name="webclient">326401909357-cple8ug7a66ciajqlo3qvs4blligkuu8.apps.googleusercontent.com</string>
+</resources>

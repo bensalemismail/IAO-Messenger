@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+
+
+            <RelativeLayout
+                android:id="@+id/logolayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp">
+
+                <ImageView
+                    android:id="@+id/app_logo"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_logo_description"
+                    android:src="@drawable/icchat"
+                    android:layout_centerHorizontal="true"
+                    android:transitionName="imgtransaction"
+                    />
+
+                <TextView
+                    android:id="@+id/hello"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/app_logo"
+                    android:text="Hello !"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorBlue"
+                    android:textStyle="bold"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/evolve"/>
+
+                <TextView
+                    android:id="@+id/wlcmmsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome To IAOMessenger."
+                    android:layout_below="@id/hello"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+
+
+            </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layouttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logolayout"
+        android:layout_centerHorizontal="true">
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Get Started !"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/btnstyles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnstart"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/firsttimehere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/evolve_light_font"
+            android:text="First time here? "
+            android:textColor="@color/colorBlue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/firsttimeheresignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/firsttimehere"
+            android:text="Sign up."
+            android:textColor="@color/colorNavy"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

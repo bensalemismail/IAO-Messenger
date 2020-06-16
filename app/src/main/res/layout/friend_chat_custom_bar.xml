@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlue">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/chats_friend_name_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name Last Name"
+            android:fontFamily="@font/lato"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginBottom="3dp"
+            />
+
+        <TextView
+            android:id="@+id/chats_friend_last_seen_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Seen"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/chats_friend_name_bar"
+            android:fontFamily="@font/lato"
+            android:textSize="12sp"
+            android:textColor="@color/colorGrey"
+            />
+
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chats_friend_image_bar"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_chats_friend_image_bar"
+        />
+
+</RelativeLayout>

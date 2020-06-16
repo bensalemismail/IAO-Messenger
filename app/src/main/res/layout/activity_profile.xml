@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:id="@+id/profile_main_rel"
+    >
+    <!-- android:background="@drawable/profile_image_background2"-->
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/profile_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/profile_toolbar"
+            app:titleTextColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorBlue"
+            app:theme="@style/ToolbarTheme"
+            >
+
+            <ImageButton
+                android:id="@+id/profile_confirm_changes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:textSize="14sp"
+                android:src="@drawable/profile_confirm_changes"
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_profile_image"
+        android:layout_below="@+id/profile_app_bar"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="0dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_color="@color/colorNavy"
+        app:civ_border_width="2dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_change_image_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_camera_alt_black_24dp"
+        android:background="@drawable/circular_image_background"
+        android:layout_below="@+id/profile_image_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-28dp"
+        android:layout_centerInParent="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/profile_username_rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_fields_border"
+        android:layout_below="@+id/profile_image_avatar"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <EditText
+            android:id="@+id/profile_username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="14dp"
+            android:drawableStart="@drawable/ic_person_username_icon"
+            android:singleLine="true"
+            android:focusable="false"
+            android:hint="Username"
+            android:drawablePadding="10dp"
+            android:inputType="textFilter|textNoSuggestions"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
+            android:id="@+id/profile_username_edit_icon"
+            android:layout_width="64dp"
+            android:layout_height="58dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_toEndOf="@id/profile_username"
+            android:src="@drawable/ic_profile_edit_icon"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_email_rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_fields_border"
+        android:layout_below="@+id/profile_username_rel"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <EditText
+            android:id="@+id/profile_email"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="14dp"
+            android:drawableStart="@drawable/ic_email_icon"
+            android:focusable="false"
+            android:singleLine="true"
+            android:drawablePadding="10dp"
+            android:inputType="textFilter|textNoSuggestions"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_name__lastname_rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_fields_border"
+        android:layout_below="@+id/profile_email_rel"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <EditText
+            android:id="@+id/profile_name_lastname"
+            android:paddingHorizontal="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="14dp"
+            android:drawableStart="@drawable/ic_profile_person_name_lastname_icon"
+            android:singleLine="true"
+            android:focusable="false"
+            android:hint="Full Name"
+            android:drawablePadding="10dp"
+            android:inputType="textFilter|textNoSuggestions"
+            />
+
+        <ImageButton
+            android:id="@+id/profile_name__lastname_edit_icon"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_toEndOf="@id/profile_name_lastname"
+            android:src="@drawable/ic_profile_edit_icon"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_status_rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_fields_border"
+        android:layout_below="@+id/profile_name__lastname_rel"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <EditText
+            android:id="@+id/profile_status"
+            android:paddingHorizontal="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="14dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_profile_status_icon"
+            android:singleLine="true"
+            android:focusable="false"
+            android:hint="Status"
+            android:maxWidth="300dp"
+            android:inputType="textFilter|textNoSuggestions"
+            />
+
+        <ImageButton
+            android:id="@+id/profile_status_edit_icon"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_toEndOf="@id/profile_status"
+            android:src="@drawable/ic_profile_edit_icon"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/profile_logout_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:textColor="#000000"
+        android:background="@drawable/profile_logout_button_border"
+        android:layout_below="@+id/profile_status_rel"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/lato"
+        android:layout_marginTop="12dp"
+        />
+
+</RelativeLayout>
